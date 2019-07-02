@@ -19,7 +19,6 @@ public class ProductDto {
 
     }
 
-    // TODO: Remove it when you will fix the create of products
     //public ProductDto(String name) {
       //  this.name = name;
     //}

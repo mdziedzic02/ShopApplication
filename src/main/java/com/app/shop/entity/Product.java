@@ -30,8 +30,7 @@ public class Product {
     @ManyToOne(fetch = FetchType.LAZY, optional = false)
     @JsonBackReference
     private Category category;
-
-    // TODO: Remove it when you will fix the create of products
+    
     //public Product(String name) {
       //  this.name = name;
     //}

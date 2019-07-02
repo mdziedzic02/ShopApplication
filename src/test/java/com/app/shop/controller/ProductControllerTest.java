@@ -93,7 +93,6 @@ public class ProductControllerTest extends ControllerTest {
                 .andDo(this::tapError)
                 .andExpect(status().isOk());
 
-        // TODO: Include more expects and check if its removed from database (by id)
 
     }
 

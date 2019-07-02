@@ -67,8 +67,6 @@
 //                .andExpect(status().isOk())
 //                .andExpect(jsonPath("$.name").value(SHOPPINGLIST_NAME_2));
 //
-//        // TODO: Problem with jsonPath($.name), there is no object to update
-//    }
 //
 //    @Test
 //    public void shouldDelete() throws Exception {
@@ -78,7 +76,6 @@
 //                .andDo(this::tapError)
 //                .andExpect(status().isOk());
 //
-//        // TODO: Include more expects and check if its removed from database (by id)
 //
 //    }
 //
